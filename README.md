@@ -1,48 +1,46 @@
 # RecipeHub 🍳
 
-RecipeHub is an Android application developed as a **Prova de Aptidão Profissional (PAP)** project. It allows users to manage, share, and discover cooking recipes using a modern and intuitive interface.
+---
 
-## 🚀 Features
+### 📝 Sobre o Projeto
+O **RecipeHub** é uma aplicação Android desenvolvida em **2024** como projeto de **Prova de Aptidão Profissional (PAP)** para a conclusão do curso de **Técnico de Gestão e Programação de Sistemas Informáticos (TGPSI)** na **Escola Profissional Ruiz Costa**.
 
-- **Secure Authentication**: User sign-up and login with email verification powered by Firebase Auth.
-- **Recipe Management**: Create, edit, and delete your own recipes with details like ingredients, preparation mode, and time.
-- **Image Integration**: Upload recipe photos directly to Firebase Storage.
-- **Community Interaction**: Browse recipes shared by other users in the community.
-- **Shopping/Ingredient List**: Manage your ingredients and notes within the app.
-- **Profile Management**: Update your user profile and personal information.
-
-## 🛠️ Tech Stack
-
-- **Language**: Kotlin
-- **Architecture**: Modern Android development practices with ViewBinding.
-- **Backend**: 
-  - **Firebase Authentication**: User management.
-  - **Cloud Firestore**: Scalable NoSQL database for recipes and user data.
-  - **Firebase Storage**: Media storage for recipe photos.
-  - **Realtime Database**: For synchronized lists and notes.
-- **UI Libraries**: 
-  - Picasso (Asynchronous image loading and caching)
-  - Material Components (Modern UI design)
-  - AvvyLib (Custom UI enhancements)
-
-## 📋 Setup Instructions
-
-To get this project running locally:
-
-1. Clone the repository.
-2. Create a new project in the [Firebase Console](https://console.firebase.google.com/).
-3. Register the Android app with the package name `com.example.pap`.
-4. Download the `google-services.json` and place it in the `app/` directory.
-5. In the Firebase Console, enable:
-   - **Authentication** (Email/Password provider).
-   - **Cloud Firestore** (Test mode).
-   - **Realtime Database** (Test mode).
-   - **Firebase Storage** (Test mode).
-6. Build and run the project in Android Studio.
-
-## 📸 Presentation
-
-*Feel free to explore the code and the modern implementation of Firebase services in Android!*
+Este projeto foi o culminar da minha formação técnica secundária, onde apliquei conhecimentos de desenvolvimento mobile e integração de serviços cloud, focando-me na estrutura de dados e na experiência de utilização em Android.
 
 ---
-Developed by Guilherme Ribeiro.
+
+### 🚀 Funcionalidades Principais
+
+* **🔐 Autenticação Segura:** Registo e login com verificação de email via Firebase Auth.
+* **📖 Gestão de Receitas:** CRUD completo (Criar, ler, editar e eliminar) com detalhes de preparação.
+* **📸 Integração de Imagens:** Upload e gestão de fotos via Firebase Storage.
+* **🌍 Comunidade:** Exploração de receitas partilhadas por outros utilizadores.
+* **🛒 Lista de Compras:** Gestão interna de ingredientes e notas.
+* **👤 Perfil:** Edição de dados pessoais do utilizador.
+
+---
+
+### 🛠️ Tech Stack
+
+| Componente | Tecnologia |
+| :--- | :--- |
+| **Linguagem** | Kotlin |
+| **Arquitetura** | ViewBinding (Modern Android SDK) |
+| **Base de Dados** | Firestore & Realtime Database |
+| **Storage** | Firebase Storage |
+| **Imagens** | Picasso Library |
+
+---
+
+### 📋 Configuração Rápida
+
+1.  **Clone:** `git clone https://github.com/ribass16/RecipeHub.git`
+2.  **Firebase:** Adicionar o ficheiro `google-services.json` na pasta `app/`.
+3.  **Build:** Compilar via Android Studio (Gradle).
+
+---
+
+<p align="center">
+  Desenvolvido por <b>Guilherme Ribeiro</b> - 2024<br>
+  <i>Técnico de Gestão e Programação de Sistemas Informáticos - Escola Profissional Ruiz Costa</i>
+</p>
