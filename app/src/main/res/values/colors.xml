@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#3F3B37</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#F78404</color>
+    <color name="purple">#8692f7</color>
+    <color name="yellow">#F0DAA1</color>
+    <color name="orange1">#FBA35A</color>
+    <color name="orange2">#EE7804</color>
+    <color name="orange3">#F1D55F</color>
+    <color name="orange4">#FFDB35</color>
+    <color name="teste">#ebb248</color>
+    <color name="teste1">#65a3cb</color>
+    <color name="teste2">#F9521B</color>
+    <color name="trans">#00FFFFFF</color>
+
+
+
+</resources>

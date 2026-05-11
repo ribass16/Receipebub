@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Pap" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/teste</item>
+    </style>
+
+
+
+    <style name="Theme.Pap" parent="Base.Theme.Pap" />
+</resources>

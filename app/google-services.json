@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "488917785520",
+    "project_id": "recipehub-8023f",
+    "storage_bucket": "recipehub-8023f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488917785520:android:c986f614a52ee54803d475",
+        "android_client_info": {
+          "package_name": "com.example.pap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN6dp9db6KzxrDeUQVY26ge4ICGJKpRf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
